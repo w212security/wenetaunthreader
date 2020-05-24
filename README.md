@@ -15,6 +15,8 @@ if you want to try installation using installer.sh (recommended)
 * chmod +x before use
 * run as root
 
+we're working on a better installer. but, until then, just run installer.sh somewhere on your device with git, and follow the steps. 
+
 ## todo
 
 * re-write backbraced in c
