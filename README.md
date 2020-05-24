@@ -1,5 +1,5 @@
 # wenetaunthreader
-EXPERIMENTAL untether for ios 9.2.x (ish) -> 13.5, wen eta jelbrek
+EXPERIMENTAL "untether" for ios 9.2.x (ish) -> 13.5, wen eta jelbrek
 
 Guided Access hack. Passcode must be disabled. :(
 
