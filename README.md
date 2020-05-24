@@ -6,7 +6,7 @@ EXPERIMENTAL untether for ios 9.2.x (ish) -> 13.5, wen eta jelbrek
 
 ~~but just wait until the rest of the untether is released, and the guide is as well.~~
 
-Now, apatchy isn't necessary, except with the ~~[legacy](https://github.com/spacepilotAV/wenetaunthreader/tree/legacy) branch~~ legacy is currently unavailable for testers.
+Now, apatchy isn't necessary, except with the ~~[legacy](https://github.com/spacepilotAV/wenetaunthreader/tree/legacy) branch~~ legacy is not public, and likely never will be. :\\    not that you would fucking want ***legacy*** \*shakes in fear\*
 
 
 if you want to try installation using installer.sh (recommended)
