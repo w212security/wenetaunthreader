@@ -25,7 +25,7 @@ printf "would you like to copy launch daemons? (y/n) "
 read launchDaemons
 if [ $launchDaemons == "y" ]
 then
-cp -R /unthreader/unthreader/* /
+cp -R /unthreader/daemons/* /
 fi
 cp -R /unthreader/bins/* /
 
