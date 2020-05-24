@@ -11,9 +11,9 @@ eta son
 Now, apatchy isn't necessary, except with the ~~[legacy](https://github.com/spacepilotAV/wenetaunthreader/tree/legacy) branch~~ legacy is currently unavailable for testers.
 
 
-if you want to try installation using experimental/install.sh
+if you want to try installation using installer.sh (recommended)
 
-* before running, install python, core utilities, and git. 
+* before running, install git. 
 * chmod +x before use
 * run as root
 
