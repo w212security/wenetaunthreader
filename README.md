@@ -1,6 +1,8 @@
 # wenetaunthreader
 EXPERIMENTAL untether for ios 9.2.x (ish) -> 13.5, wen eta jelbrek
 
+Guided Access hack. Passcode must be disabled. :(
+
 ## notes
 ~~this is basically useless without [apatchy](https://www.github.com/spacepilotAV/apatchy), our lightspeed directory patchfinder; but you can use it if you manually create the patches.~~
 
