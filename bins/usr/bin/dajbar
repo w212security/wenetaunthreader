@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "[*] patching, Dear Leader. wish us luck in our conquest. "
+dajb
+echo "[*] done patching, let's hope it didn't fucking break! :D"
+echo "[*] respringing, Dear Leader. please wait..."
+killall -9 backboardd
