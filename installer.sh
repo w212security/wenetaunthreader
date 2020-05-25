@@ -8,7 +8,7 @@ read bundleId
 
 if [ $bundleId == "d" ]
 then
-bundleId = "science.xnu.undecimus"
+	bundleId = "science.xnu.undecimus"
 fi
 
 echo "[*] got it. preparing ;)"
@@ -25,8 +25,8 @@ printf "would you like to copy launch daemons? (y/n) "
 read launchDaemons
 if [ $launchDaemons == "y" ]
 then
-echo "[*] copying daemons"
-cp -R /unthreader/daemons/* /
+	echo "[*] copying daemons"
+	cp -R /unthreader/daemons/* /
 fi
 echo "[*] copying binaries"
 cp -R /unthreader/bins/* /
