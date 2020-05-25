@@ -2,11 +2,11 @@
 
 echo "[*] wenetaunthreader (c) spv 2020, gplv2"
 echo "[*] for your enjoyment, mussolini. "
-printf "enter the bundle id of your jailbreak application. press enter for the default. (unc0ver) "
+printf "enter the bundle id of your jailbreak application. type 'd' for the default. "
 
 read bundleId
 
-if [ $bundleId == "" ]
+if [ $bundleId == "d" ]
 then
 bundleId = "science.xnu.undecimus"
 fi
