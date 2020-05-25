@@ -2,6 +2,8 @@
 # fuck spaces
 # tabs for life
 
+CC = # placeholder. put in your path to your compiler (probably clang) and your args! (-sdk iphoneos ...)
+
 all:
 	mkdir -p ../bins/jbin/
 	$CC enjb.c -o ../bins/unthreader/bin/enjb
