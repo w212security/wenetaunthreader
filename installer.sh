@@ -16,7 +16,13 @@ apt-get update
 apt-get install -y python3 git
 rm -rf /unthreader/
 mkdir -p /unthreader/
-git clone https://github.com/w212security/wenetaunthreader.git /unthreader/
+if [ -e __IS_WEU_REPO ]
+then
+	echo "[*] using local files"
+	cp -R ./* /unthreader/
+else
+	git clone https://github.com/w212security/wenetaunthreader.git /unthreader/
+fi
 mkdir -p /unthreader/patches/
 
 echo $bundleId > /unthreader/bundleId.txt
