@@ -10,7 +10,7 @@
 int main(int argc, char *argv[]) {
 	printf("[*] init lifesupportd\n");
 	if (getuid() != 0) {
-		printf("[!] error. this daemon must be run as root.\n");
+		printf("[!] error. lifesupportd must be run as root.\n");
 		return -1;
 	}
 	FILE *fp;

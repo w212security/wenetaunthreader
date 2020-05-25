@@ -6,8 +6,7 @@
 	<string>com.w212sec.lifesupportd</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/bin/bash</string>
-		<string>/usr/bin/lifesupportd</string>
+		<string>/unthreader/bin/lifesupportd</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>

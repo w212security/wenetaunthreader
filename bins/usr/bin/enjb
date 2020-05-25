@@ -1,6 +1,0 @@
-#!/bin/bash
-
-rm /.da
-touch /.en
-cp /unthreader/patches/enable /var/mobile/Library/Accessibility/GuidedAccessState
-chown -R mobile /var/mobile/Library/Acc*
