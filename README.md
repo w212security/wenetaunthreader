@@ -10,8 +10,6 @@ if you want to try installation using installer.sh (recommended)
 * chmod +x before use
 * run as root
 
-***insert tutorial on how to use git here*** ;)
-
 ## todo
 
 * re-write backbraced in c
