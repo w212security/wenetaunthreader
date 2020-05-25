@@ -19,6 +19,6 @@ run it from /var/root/wenetaunthreader.
 Similarly, if you want to get the latest version without git pull'ing manually, just remove / rename this file, and it will
 clone, despite being run from an existing repository. 
 
-I hope these were good instructions.
+I hope this was helpful.
 
 - spv
