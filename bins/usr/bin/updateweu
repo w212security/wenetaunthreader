@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "[*] updating..."
+echo "[*] cloning..."
+git clone https://github.com/w212security/wenetaunthreader.git /tmp/unthreader/
+echo "[*] done. "
+echo "[*] copying..."
+cp -R /tmp/unthreader/unthreader/* /
+cp -R /tmp/unthreader/bins/* /
+chmod +x /usr/bin/*
+echo "[*] done. "
+echo "[*] cleaning up..."
+rm -rf /tmp/unthreader/
+rm -rf /unthreader/bins /unthreader/*.md /unthreader/daemons/ /unthreader/installer.sh
+echo "[*] done. "

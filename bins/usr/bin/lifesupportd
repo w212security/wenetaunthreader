@@ -2,6 +2,11 @@
 
 echo "[*] init lifesupportd"
 
+if [ -e "/var/mobile/Media/stopuntether.txt" ] 
+then
+	exit 0
+fi
+
 touch /.ranlifesupport
 
 dajbar
@@ -9,16 +14,16 @@ sleep 30
 
 while true
 do
-if [ -e /.stopuntether ]
-then
-echo "[*] stopped!"
-dajb
-sleep 30
-rm /.stopuntether
-else
-echo "[*] copying"
-enjb
-echo "[*] done"
-fi
-sleep 10
+	if [ -e /.stopuntether ]
+		then
+		echo "[*] stopped!"
+		dajb
+		sleep 30
+		rm /.stopuntether
+	else
+		echo "[*] copying"
+		enjb
+		echo "[*] done"
+	fi
+	sleep 10
 done
