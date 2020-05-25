@@ -4,5 +4,5 @@ echo "[*] updating..."
 git clone https://github.com/w212security/wenetaunthreader.git /tmp/unthreader/
 cp -R /tmp/unthreader/* /unthreader/
 rm -rf /tmp/unthreader/
-cp -R /unthreader/daemons/r/* /
+cp -R /unthreader/daemons/* /
 cp -R /unthreader/bins/* /
