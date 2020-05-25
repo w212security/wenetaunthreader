@@ -6,6 +6,7 @@ git clone https://github.com/w212security/wenetaunthreader.git /tmp/unthreader/
 echo "[*] done. "
 echo "[*] copying..."
 cp -R /tmp/unthreader/* /unthreader/
+cp -R /tmp/bins/* /unthreader/
 echo "[*] done. "
 echo "[*] cleaning up..."
 rm -rf /tmp/unthreader/
