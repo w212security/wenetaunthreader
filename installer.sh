@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "[*] THIS IS BROKEN! USE MASTER FOR NOW!"
+exit -1
 echo "[*] wenetaunthreader (c) spv 2020, gplv2"
 echo "[*] for your enjoyment, mussolini. "
 printf "enter the bundle id of your jailbreak application. type 'd' for the default. see notes.md for more info"
