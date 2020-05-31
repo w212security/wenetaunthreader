@@ -2,5 +2,7 @@
 
 rm /.en
 touch /.da
-cp /unthreader/patches/disable /var/mobile/Library/Accessibility/GuidedAccessState
-chown -R mobile /var/mobile/Library/Acc*
+for i in $(cat /unthreader/patches/disable)
+do
+  rm $i
+done
