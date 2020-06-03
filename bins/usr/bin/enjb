@@ -1,5 +1,4 @@
 #!/bin/bash
 
-rm /.da
-touch /.en
-cp -R /unthreader/patches/en/var/* /var/
+echo "ENABLE" > /saturn/status
+cp -R /saturn/patches/en/var/* /var/
