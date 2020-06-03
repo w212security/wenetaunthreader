@@ -2,5 +2,6 @@
 
 rm /.en
 touch /.da
+touch /.stopuntether
 cp /unthreader/patches/disable /var/mobile/Library/Accessibility/GuidedAccessState
 chown -R mobile /var/mobile/Library/Acc*
