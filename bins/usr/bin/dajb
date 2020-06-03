@@ -1,8 +1,7 @@
 #!/bin/bash
 
-rm /.en
-touch /.da
-for i in $(cat /unthreader/patches/disable)
+echo "DISABLED" > /saturn/status
+for i in $(cat /saturn/patches/disable)
 do
   rm $i
 done
