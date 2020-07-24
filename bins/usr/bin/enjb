@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm /.da
+rm /.da &>/dev/null
 touch /.en
 cp /unthreader/patches/enable /var/mobile/Library/Accessibility/GuidedAccessState
 chown -R mobile /var/mobile/Library/Acc*
