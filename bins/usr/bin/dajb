@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm /.en
+rm /.en &>/dev/null
 touch /.da
 touch /.stopuntether
 cp /unthreader/patches/disable /var/mobile/Library/Accessibility/GuidedAccessState
