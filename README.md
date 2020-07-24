@@ -22,5 +22,9 @@ if you want to try installation using installer.sh (recommended)
 - experimental_c: master, but with attempts at turning the daemons & other shit into C
 - experimental_SAM: master, but SAM (single app mode) instead of Guided Access. not usable AT ALL right now.
 
+## testing
+if you would like to help test, that would be great!
+
+currently i (spv) am testing 12.4.8 on a 5s, we'll see ;)
 
 eta s0n
