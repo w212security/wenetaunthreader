@@ -36,3 +36,5 @@ currently i (spv) am testing 12.4.8 on a 5s, we'll see ;)
 
 
 eta s0n
+
+confirmed working on 14.3 iPhone8,1
