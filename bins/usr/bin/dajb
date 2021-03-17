@@ -1,7 +1,0 @@
-#!/bin/bash
-
-rm /.en &>/dev/null
-touch /.da
-touch /.stopuntether
-cp /unthreader/patches/disable /var/mobile/Library/Accessibility/GuidedAccessState
-chown -R mobile /var/mobile/Library/Acc*
