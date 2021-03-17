@@ -3,6 +3,8 @@ EXPERIMENTAL "untether" for ios 9.2.x (ish) -> 14.3, wen eta jelbrek
 
 Guided Access hack. Passcode must be ~~disabled.~~ disabled (for now) :(
 
+This is different from Athenus, they are two seperate fucking things. 
+
 ## notes
 if you want to try installation using installer.sh (recommended)
 
